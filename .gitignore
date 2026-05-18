@@ -47,3 +47,7 @@ Desktop.ini
 # ────────────────────────────────────────────────────────────────
 stockfish
 stockfish.exe
+# Exclude the Stockfish engine and zips
+*.zip
+*.exe
+stockfish*
