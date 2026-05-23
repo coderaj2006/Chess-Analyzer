@@ -66,6 +66,8 @@ Then **either**:
 
 ### 3. Run
 
+#### CLI Interface
+
 ```bash
 # Analyse the most recent game of a Chess.com user
 python -m chess_analyzer.cli -u hikaru
@@ -78,6 +80,14 @@ python -m chess_analyzer.cli -f my_game.pgn
 
 # Custom engine settings
 python -m chess_analyzer.cli -u hikaru --depth 22 --threads 4 --hash 256
+```
+
+#### Web Interface (Streamlit)
+
+You can launch a beautiful, layman-friendly Web UI Dashboard to visualize your game analysis!
+
+```bash
+streamlit run app.py
 ```
 
 ---
